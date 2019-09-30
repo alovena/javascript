@@ -1,7 +1,7 @@
 <h1 align="center">자바스크립트 1일차</h1>
 :bulb: :duck: :dog: :note: :happy:
 
-> :note: Old Javascript 는 <script type='text/javascript'></script>를 사용
+> :note: Old Javascript 는 ```javascript<script type='text/javascript'></script>```를 사용
 > 위의 속성은 필요 없으며 기본적으로 html안에 내장되어 있다.
 
 # **자바 스크립트 불러오기**
@@ -57,6 +57,7 @@ function onClickShowTime(){
 </script>
 ```
 # The Result
+![ex1](https://user-images.githubusercontent.com/32647144/65873791-0560cf00-e3bf-11e9-81b7-22deb002cde5.png)
 
 # **Javascript can change HTML Styles CSS
 ```html
