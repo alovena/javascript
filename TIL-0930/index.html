@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    My First JavaScript
+    <button onclick="myFunction()">Click me to Display Data and Time</button>
+    <p id="demo"></p>
+    <p id="demo2">hell world!@!</p>
+    <button id="demo3" onclick="myFunction2()">click</button>
+    <script>
+          function myFunction(){
+            document.getElementById('demo').innerHTML = Date()
+            }
+            document.getElementById('demo2').style.fontSize = "24px"
+        function myFunction2(){
+            document.getElementById('demo3').style.display='none';
+        }
+    </script>
+</body>
+</html>
